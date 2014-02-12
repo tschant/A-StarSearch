@@ -162,4 +162,3 @@
 (define (test-all)
   (define test-puzzles (list test1 test2 test3 test4 test5 test6))
   (for-each (λ(x) (tile-puzzle x '())) test-puzzles))
-(tile-puzzle test6 '())
